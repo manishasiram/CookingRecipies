@@ -1,0 +1,14 @@
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+             <div> <h1>Recipie_type</h1>
+			 <table border="1">                        
+	          {% for i in rcmap %}
+			<tr><td> Recipies</td>
+			<td>{{i.Recipie_id}}</td>
+			<td>{{i.Rmap_id}}</td>
+			<td>{{i.Cmap_id}}</td>
+			</tr>
+			{% endfor %}
+			</table>
+			</div>
+			</body></html>
+
